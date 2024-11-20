@@ -1,0 +1,27 @@
+Dla int:
+
+Scanner scanner = new Scanner(System.in);
+System.out.print("Podaj liczbę całkowitą: ");
+int input = scanner.nextInt();
+System.out.println("Wprowadzono: " + input);
+
+Dla double:
+
+Scanner scanner = new Scanner(System.in);
+System.out.print("Podaj liczbę zmiennoprzecinkową: ");
+double input = scanner.nextDouble();
+System.out.println("Wprowadzono: " + input);
+
+Dla char:
+
+Scanner scanner = new Scanner(System.in);
+System.out.print("Podaj znak: ");
+char input = scanner.next().charAt(0);
+System.out.println("Wprowadzono: " + input);
+
+Dla boolean:
+
+Scanner scanner = new Scanner(System.in);
+System.out.print("Podaj wartość logiczną (true/false): ");
+boolean input = scanner.nextBoolean();
+System.out.println("Wprowadzono: " + input);
