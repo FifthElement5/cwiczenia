@@ -12,8 +12,8 @@ public class dwiescie {
 		 int randomNumber = random.nextInt(200);
 		 
 		  System.out.println("wylosowamo: " + randomNumber);
-		 int wynik = 0; 
-		 while(wynik == 0) {
+		  
+		 while(true) {
 		 
 		 System.out.println("zgadnij liczbe od 1 do 200: ");
 		 int liczba = scanner.nextInt();
@@ -27,7 +27,7 @@ public class dwiescie {
 		 } else {
 			 
 			 System.out.println("Gratulacje!! liczba to " + randomNumber);
-			 wynik = 1;
+			 break;
 		 }
 		 
 		 
